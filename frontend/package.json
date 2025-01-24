@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "test": "jest",
-    "lint": "eslint . --ext .ts,.tsx",
-    "typescript": "tsc --noEmit"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.9",
