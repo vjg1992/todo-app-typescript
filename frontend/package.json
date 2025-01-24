@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  {
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+    "build": "vite build",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "typescript": "tsc --noEmit"
+  }
+},
   "dependencies": {
     "@tailwindcss/forms": "^0.5.9",
     "axios": "^1.7.9",
